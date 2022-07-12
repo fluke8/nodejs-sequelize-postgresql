@@ -1,0 +1,233 @@
+GET http://localhost:3000/user/5
+Accept: application/json
+
+<> 2022-07-08T212309.200.json
+
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "123",
+  "surname": "228"
+}
+
+<> 2022-07-08T211850.200.json
+
+###
+
+POST http://localhost:3000/user/2
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "123",
+  "surname": "228"
+}
+
+<> 2022-07-08T211825.404.html
+
+###
+
+GET http://localhost:3000/user/2
+Accept: application/json
+
+<> 2022-07-08T211811.200.json
+
+###
+
+GET http://localhost:3000/user/2
+Accept: application/json
+
+<> 2022-07-08T211753.200.json
+
+###
+
+POST http://localhost:3000/user/2
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "123",
+  "surname": "228"
+}
+
+<> 2022-07-08T211752.404.html
+
+###
+
+GET http://localhost:3000/user/2
+Accept: application/json
+
+<> 2022-07-08T211001.200.json
+
+###
+
+GET http://localhost:3000/user/1
+Accept: application/json
+
+<> 2022-07-08T210955.200.json
+
+###
+
+POST http://localhost:3000/post
+Content-Type: application/json
+
+{
+  "title": "football",
+  "content": "football is good!",
+  "user_id": 1
+}
+
+<> 2022-07-08T203850.200.json
+
+###
+
+POST http://localhost:3000/post
+Content-Type: application/json
+
+{
+  "title": "football",
+  "content": "football is good!",
+  "user_id": 1
+}
+
+<> 2022-07-08T203529.200.json
+
+###
+
+GET http://localhost:3000/user/1
+Accept: application/json
+
+###
+
+GET http://localhost:3000/user/1
+Accept: application/json
+
+###
+
+GET http://localhost:3000/user
+Accept: application/json
+
+<> 2022-07-08T202829.200.json
+
+###
+
+GET http://localhost:3000/user
+Accept: application/json
+
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "donater",
+  "surname": "petrov"
+}
+
+<> 2022-07-08T202622.200.json
+
+###
+
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "name": "donater",
+  "surname": "petrov"
+}
+
+<> 2022-07-08T202610.404.html
+
+###
+
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "name": "vasya",
+  "surname": "petrov"
+}
+
+###
+
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "name": "vasya",
+  "surname": "petrov"
+}
+
+###
+
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "name": "vasya",
+  "surname": "petrov"
+}
+
+###
+
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "name": "vasya",
+  "surname": "petrov"
+}
+
+###
+
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "name": "vasya",
+  "surname": "petrov"
+}
+
+###
+
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "name": "vasya",
+  "surname": "petrov"
+}
+
+###
+
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+  "name": "vasya",
+  "surname": "petrov"
+}
+
+###
+
+GET http://localhost:3000
+Accept: application/json
+
+<> 2022-07-08T180713.200.json
+
+###
+
+GET http://localhost:3000
+Accept: application/json
+
+###
+
+GET http://localhost:3000
+Accept: application/json
+
+###
+
